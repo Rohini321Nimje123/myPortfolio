@@ -183,7 +183,7 @@ section .title::after {
   background: url("https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") no-repeat center;
   background-color: #111;
   height: 100vh;
-  color: #111;
+  color: rgb(45, 42, 42);
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -208,16 +208,17 @@ section .title::after {
 .home .home-content .text-3 {
   font-size: 40px;
   margin: 5px 0;
-  margin-left: 350px;
+  margin-left: 300px;
+  color: rgb(89, 136, 85);
 }
 .home .home-content .text-3 span {
   color: rgb(89, 136, 85);
-  font-weight: 500;
-  
+  font-weight: 500; 
 }
+
 .home .home-content a {
   display: inline-block;
-  background:rgb(89, 136, 85) ;
+  background: rgb(89, 136, 85) ;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
@@ -226,9 +227,10 @@ section .title::after {
   border-radius: 6px;
   border: 2px solid rgb(89, 136, 85);
   transition: all 0.3s ease;
+  margin-left: 480px;
 }
 .home .home-content a:hover {
-  color: rgb(89, 136, 85);
+  color: #4a4c4c;
   background: none;
 }
 
@@ -242,24 +244,28 @@ section .title::after {
 }
 
 .about .about-content .left {
-  width: 45%;
+  width: 90%;
+  margin-right: 570px;
 }
 .about .about-content .left img {
   height: 400px;
   width: 400px;
   object-fit: cover;
   border-radius: 200px 200px;
+
 }
 .about .about-content .right {
   width: 55%;
+  margin-right: -50px;
 }
 .about .about-content .right .text {
-  font-size: 25px;
+  font-size: 60px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-top: -300px;
+  color: #4a4c4c;
 }
 .about .about-content .right .text span {
-  color: #06d6a0;
+  color:  rgb(89, 136, 85);
   
 }
 .about .about-content .right p {
@@ -267,18 +273,18 @@ section .title::after {
 }
 .about .about-content .right a {
   display: inline-block;
-  background: #06d6a0;
+  background:  rgb(89, 136, 85);
   color: #fff;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #06d6a0;
+  border: 2px solid  rgb(89, 136, 85);
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: #06d6a0;
+  color:  rgb(89, 136, 85);
   background: none;
 }
 .about .title::after {
@@ -289,13 +295,13 @@ section .title::after {
 /* services section styling */
 .services,
 .project {
-  color: #fff;
-  background: #111;
+  color: #111;
+  background-image: url("https://images.unsplash.com/photo-1560780552-ba54683cb263?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") ;
 }
 .services .title::before,
 .project .title::before {
   
-  background: #fff;
+  background: #4a4c4c;
 }
 .services .title::after,
 .project .title::after {
@@ -312,7 +318,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .services .serv-content .card:hover {
-  background: #06d6a0;
+  background:rgb(89, 136, 85) ;
   color: #555;
   /* change*/
 }
@@ -324,7 +330,7 @@ section .title::after {
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color: #06d6a0;
+  color: rgb(89, 136, 85);
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
